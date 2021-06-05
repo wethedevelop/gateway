@@ -1,7 +1,8 @@
 package main
 
-import "fmt"
-
 func main() {
-	fmt.Println("it will be a gateway")
+	Init()
+
+	r := Route()
+	r.Run()
 }
